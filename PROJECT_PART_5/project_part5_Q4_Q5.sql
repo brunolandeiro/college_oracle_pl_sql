@@ -1,0 +1,68 @@
+SPOOL bruno_project_part_5_q4_q5.txt
+SELECT TO_CHAR(SYSDATE, 'DD Month Year Day HH:MI:SS Am') from dual;
+SET SERVEROUTPUT ON;
+
+-- Question 4 :
+-- Run script scott_emp_dept.
+-- Create a procedure that accepts a number represent the number of employees who earns the highest salary. 
+-- Display employee name and his/her salary
+-- Ex: SQL> exec L5Q4(2)
+-- SQL> top 2 employees are
+-- KING 5000
+-- FORD 3000
+CREATE OR REPLACE PROCEDURE P5Q4(P_TOP NUMBER) AS 
+CURSOR Q4CURR IS SELECT ENAME, SAL FROM EMP ORDER BY SAL DESC;
+V_ENAM EMP.ENAME%TYPE;
+V_SAL EMP.ENAME%TYPE;
+V_COUNTER NUMBER := 0;
+BEGIN
+  OPEN Q4CURR;
+  DBMS_OUTPUT.PUT_LINE('TOP '|| P_TOP|| ' EMPLOYEES ARE');
+  FETCH Q4CURR INTO V_ENAM, V_SAL;
+  WHILE Q4CURR%FOUND AND V_COUNTER < P_TOP LOOP
+    V_COUNTER := V_COUNTER + 1;
+    DBMS_OUTPUT.PUT_LINE(V_ENAM ||', ' || V_SAL);
+    FETCH Q4CURR INTO V_ENAM, V_SAL;
+  END LOOP;
+  -- STEP 4: CLOSE
+  CLOSE Q4CURR;
+END;
+/
+EXEC P5Q4(0);
+EXEC P5Q4(1);
+EXEC P5Q4(3);
+EXEC P5Q4(20);
+
+-- Question 5:
+-- Modify question 4 to display ALL employees who make the top salary entered
+-- Ex: SQL> exec L5Q5(2)
+-- SQL> Employee who make the top 2 salary are
+-- KING 5000
+-- FORD 3000
+-- SCOTT 3000
+CREATE OR REPLACE PROCEDURE P5Q5(P_TOP NUMBER) AS 
+CURSOR Q5CURR IS SELECT ENAME, SAL FROM EMP ORDER BY SAL DESC;
+V_ENAM EMP.ENAME%TYPE;
+V_SAL EMP.ENAME%TYPE;
+V_COUNTER NUMBER := 0;
+V_LAST_SAL NUMBER;
+BEGIN
+  OPEN Q5CURR;
+  DBMS_OUTPUT.PUT_LINE('TOP '|| P_TOP|| ' SALARY ARE');
+  FETCH Q5CURR INTO V_ENAM, V_SAL;
+  WHILE Q5CURR%FOUND AND (V_COUNTER < P_TOP)  LOOP
+    V_LAST_SAL := V_SAL;
+    DBMS_OUTPUT.PUT_LINE(V_ENAM ||', ' || V_SAL);
+    if V_LAST_SAL != V_SAL then
+      V_COUNTER := V_COUNTER + 1;
+    END IF;
+    FETCH Q5CURR INTO V_ENAM, V_SAL;
+  END LOOP;
+END;
+/
+EXEC P5Q5(1);
+EXEC P5Q5(2);
+EXEC P5Q5(3);
+EXEC P5Q5(4);
+
+spool off

@@ -1,0 +1,87 @@
+
+TO_CHAR(SYSDATE,'DDMONTHYEARDAYHH:MI:SSAM')                                                                                                            
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+27 Fevereiro Twenty Twenty-Three Segunda-Feira 03:48:42 Tarde
+
+
+Procedure P6_Q2 compilado
+
+
+-----CONSULTANT-----
+100, Myers, Mark
+-----SKILLS-----
+VB .NET Programming, NOT CERTIFIED
+COBOL Programming, NOT CERTIFIED
+Java Programming, NOT CERTIFIED
+Oracle Developer Programming, NOT CERTIFIED
+
+-----CONSULTANT-----
+101, Hernandez, Sheila
+-----SKILLS-----
+Project Management, NOT CERTIFIED
+Web Application Programming, NOT CERTIFIED
+
+-----CONSULTANT-----
+102, Zhang, Brian
+-----SKILLS-----
+Oracle Database Administration, CERTIFIED
+
+-----CONSULTANT-----
+103, Carlson, Sarah
+-----SKILLS-----
+VB .NET Programming, CERTIFIED
+Oracle Developer Programming, CERTIFIED
+Windows NT/2000 Network Administration, CERTIFIED
+Windows XP Network Administration, CERTIFIED
+
+-----CONSULTANT-----
+104, Courtlandt, Paul
+-----SKILLS-----
+Windows NT/2000 Network Administration, NOT CERTIFIED
+Windows XP Network Administration, CERTIFIED
+
+-----CONSULTANT-----
+105, Park, Janet
+-----SKILLS-----
+COBOL Programming, NOT CERTIFIED
+Java Programming, NOT CERTIFIED
+Project Management, CERTIFIED
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+
+Procedure P6_Q5 compilado
+
+
+-----CONSULTANT-----
+100, Myers, Mark, Eau Claire
+-----SKILLS-----
+VB .NET Programming, OLD STATUS: NOT CERTIFIED, NEW STATUS: CERTIFIED
+COBOL Programming, OLD STATUS: NOT CERTIFIED, NEW STATUS: CERTIFIED
+Java Programming, OLD STATUS: NOT CERTIFIED, NEW STATUS: CERTIFIED
+Oracle Developer Programming, OLD STATUS: NOT CERTIFIED, NEW STATUS: CERTIFIED
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+
+-----CONSULTANT-----
+100, Myers, Mark, Eau Claire
+-----SKILLS-----
+VB .NET Programming, OLD STATUS: CERTIFIED, NEW STATUS: NOT CERTIFIED
+COBOL Programming, OLD STATUS: CERTIFIED, NEW STATUS: NOT CERTIFIED
+Java Programming, OLD STATUS: CERTIFIED, NEW STATUS: NOT CERTIFIED
+Oracle Developer Programming, OLD STATUS: CERTIFIED, NEW STATUS: NOT CERTIFIED
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+PLEASE Y OR N!
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+
+Procedimento PL/SQL concluído com sucesso.
+

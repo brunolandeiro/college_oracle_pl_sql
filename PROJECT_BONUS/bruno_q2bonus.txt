@@ -1,0 +1,118 @@
+
+TO_CHAR(SYSDATE,'DAYDDMONTHYEARHH:MI:SSAM')                                                                                                            
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Segunda-Feira 24 Abril     Twenty Twenty-Three 08:40:17 Tarde
+
+
+View COURSES_VIEW criado.
+
+
+COURSE_NAME                  CREDITS S_LAST                         S_FIRST                          C_SEC_ID    SEC_NUM G
+------------------------- ---------- ------------------------------ ------------------------------ ---------- ---------- -
+Intro. to Info. Systems            3 Miller                         Sarah                                   1          1 A
+Systems Analysis                   3 Miller                         Sarah                                   4          1 A
+Database Management                3 Miller                         Sarah                                   6          1 B
+Web-Based Systems                  3 Miller                         Sarah                                   9          1 B
+Intro. to Info. Systems            3 Umato                          Brian                                   1          1 C
+Systems Analysis                   3 Umato                          Brian                                   5          2 B
+Database Management                3 Umato                          Brian                                   6          1 A
+Web-Based Systems                  3 Umato                          Brian                                   9          1 B
+Intro. to Info. Systems            3 Black                          Daniel                                  1          1 C
+Systems Analysis                   3 Black                          Daniel                                 12          1  
+Database Management                3 Black                          Daniel                                 13          1  
+
+COURSE_NAME                  CREDITS S_LAST                         S_FIRST                          C_SEC_ID    SEC_NUM G
+------------------------- ---------- ------------------------------ ------------------------------ ---------- ---------- -
+Intro. to Info. Systems            3 Mobley                         Amanda                                 11          1  
+Systems Analysis                   3 Mobley                         Amanda                                 12          1  
+Intro. to Info. Systems            3 Sanchez                        Ruben                                   1          1 B
+Systems Analysis                   3 Sanchez                        Ruben                                   5          2 C
+Web-Based Systems                  3 Sanchez                        Ruben                                   9          1 C
+Intro. to Info. Systems            3 Sanchez                        Ruben                                  11          1  
+Database Management                3 Sanchez                        Ruben                                  13          1  
+Intro. to Info. Systems            3 Connoly                        Michael                                11          1  
+Systems Analysis                   3 Connoly                        Michael                                12          1  
+
+20 linhas selecionadas. 
+
+
+0 linhas atualizado.
+
+
+1 linha atualizado.
+
+Erro a partir da linha : 27 no comando -
+DROP SEQUENCE STUD_SEQ
+Relatório de erros -
+ORA-02289: a sequência não existe
+02289. 00000 -  "sequence does not exist"
+*Cause:    The specified sequence does not exist, or the user does
+           not have the required privilege to perform this operation.
+*Action:   Make sure the sequence name is correct, and that you have
+           the right to perform the desired operation on this sequence.
+
+Sequence STUD_SEQ criado.
+
+Erro a partir da linha : 29 no comando -
+DROP SEQUENCE COURSE_SEQ
+Relatório de erros -
+ORA-02289: a sequência não existe
+02289. 00000 -  "sequence does not exist"
+*Cause:    The specified sequence does not exist, or the user does
+           not have the required privilege to perform this operation.
+*Action:   Make sure the sequence name is correct, and that you have
+           the right to perform the desired operation on this sequence.
+
+Sequence COURSE_SEQ criado.
+
+Erro a partir da linha : 31 no comando -
+DROP SEQUENCE C_SEC_ID_SEQ
+Relatório de erros -
+ORA-02289: a sequência não existe
+02289. 00000 -  "sequence does not exist"
+*Cause:    The specified sequence does not exist, or the user does
+           not have the required privilege to perform this operation.
+*Action:   Make sure the sequence name is correct, and that you have
+           the right to perform the desired operation on this sequence.
+
+Sequence C_SEC_ID_SEQ criado.
+
+
+Trigger COURSES_VIEW_TRIGGER compilado
+
+Erro a partir da linha : 52 no comando -
+INSERT INTO COURSES_VIEW VALUES ('DBII', 3, 'Landeiro', 'Bruno', 5, 5, 'A')
+Relatório de erros -
+ORA-00001: restrição exclusiva (C##DES03.COURSE_COURSE_ID_PK) violada
+ORA-06512: em "C##DES03.COURSES_VIEW_TRIGGER", line 2
+ORA-04088: erro durante a execução do gatilho 'C##DES03.COURSES_VIEW_TRIGGER'
+
+
+COURSE_NAME                  CREDITS S_LAST                         S_FIRST                          C_SEC_ID    SEC_NUM G
+------------------------- ---------- ------------------------------ ------------------------------ ---------- ---------- -
+Intro. to Info. Systems            3 Miller                         Sarah                                   1          1 A
+Systems Analysis                   3 Miller                         Sarah                                   4          1 A
+Database Management                3 Miller                         Sarah                                   6          1 B
+Web-Based Systems                  3 Miller                         Sarah                                   9          1 B
+Intro. to Info. Systems            3 Umato                          Brian                                   1          1 C
+Systems Analysis                   3 Umato                          Brian                                   5          2 B
+Database Management                3 Umato                          Brian                                   6          1 A
+Web-Based Systems                  3 Umato                          Brian                                   9          1 B
+Intro. to Info. Systems            3 Black                          Daniel                                  1          1 C
+Systems Analysis                   3 Black                          Daniel                                 12          1  
+Database Management                3 Black                          Daniel                                 13          1  
+
+COURSE_NAME                  CREDITS S_LAST                         S_FIRST                          C_SEC_ID    SEC_NUM G
+------------------------- ---------- ------------------------------ ------------------------------ ---------- ---------- -
+Intro. to Info. Systems            3 Mobley                         Amanda                                 11          1  
+Systems Analysis                   3 Mobley                         Amanda                                 12          1  
+Intro. to Info. Systems            3 Sanchez                        Ruben                                   1          1 B
+Systems Analysis                   3 Sanchez                        Ruben                                   5          2 C
+Web-Based Systems                  3 Sanchez                        Ruben                                   9          1 C
+Intro. to Info. Systems            3 Sanchez                        Ruben                                  11          1  
+Database Management                3 Sanchez                        Ruben                                  13          1  
+Intro. to Info. Systems            3 Connoly                        Michael                                11          1  
+Systems Analysis                   3 Connoly                        Michael                                12          1 C
+
+20 linhas selecionadas. 
+

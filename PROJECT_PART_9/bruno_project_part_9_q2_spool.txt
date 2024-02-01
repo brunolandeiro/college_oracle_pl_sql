@@ -1,0 +1,41 @@
+
+TO_CHAR(SYSDATE,'DAYDDMONTHYEARHH:MI:SSAM')                                                                                                            
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Quinta-Feira  30 Março     Twenty Twenty-Three 12:27:43 Tarde
+
+
+Package STUDENT_PACKAGE compilado
+
+
+Sequence STUDENT_SEQUENCE criado.
+
+
+Package Body STUDENT_PACKAGE compilado
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+Faculty id 10 does not exist.
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+Student id provided 30 already existed.
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+Birthdate 02/01/50 is in the future.
+
+
+Procedimento PL/SQL concluído com sucesso.
+

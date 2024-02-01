@@ -1,0 +1,23 @@
+
+TO_CHAR(SYSDATE,'DDMONTHYEARDAYHH:MI:SSAM')                                                                                                            
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+29 Janeiro   Twenty Twenty-Three Domingo       08:42:47 Tarde
+
+
+Procedure P3Q2 compilado
+
+Item description: 3-Season Tent
+Price: 259,99
+Color: Light Grey
+Quantity: 12
+Value: 3119,88
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+The inventory id 99 does not exist!
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+SQL> SPOOL OF

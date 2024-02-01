@@ -1,0 +1,125 @@
+
+TO_CHAR(SYSDATE,'DDMONTHYEARDAYHH:MI:SSAM')                                                                                                            
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+27 Fevereiro Twenty Twenty-Three Segunda-Feira 05:31:16 Tarde
+
+
+Procedure P5Q4 compilado
+
+TOP 0 EMPLOYEES ARE
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+TOP 1 EMPLOYEES ARE
+KING, 5000
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+TOP 3 EMPLOYEES ARE
+KING, 5000
+SCOTT, 3000
+FORD, 3000
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+TOP 20 EMPLOYEES ARE
+KING, 5000
+SCOTT, 3000
+FORD, 3000
+JONES, 2975
+BLAKE, 2850
+CLARK, 2450
+ALLEN, 1600
+TURNER, 1500
+MILLER, 1300
+MARTIN, 1250
+WARD, 1250
+ADAMS, 1100
+JAMES, 950
+SMITH, 800
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+
+Procedure P5Q5 compilado
+
+TOP 1 SALARY ARE
+KING, 5000
+SCOTT, 3000
+FORD, 3000
+JONES, 2975
+BLAKE, 2850
+CLARK, 2450
+ALLEN, 1600
+TURNER, 1500
+MILLER, 1300
+MARTIN, 1250
+WARD, 1250
+ADAMS, 1100
+JAMES, 950
+SMITH, 800
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+TOP 2 SALARY ARE
+KING, 5000
+SCOTT, 3000
+FORD, 3000
+JONES, 2975
+BLAKE, 2850
+CLARK, 2450
+ALLEN, 1600
+TURNER, 1500
+MILLER, 1300
+MARTIN, 1250
+WARD, 1250
+ADAMS, 1100
+JAMES, 950
+SMITH, 800
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+TOP 3 SALARY ARE
+KING, 5000
+SCOTT, 3000
+FORD, 3000
+JONES, 2975
+BLAKE, 2850
+CLARK, 2450
+ALLEN, 1600
+TURNER, 1500
+MILLER, 1300
+MARTIN, 1250
+WARD, 1250
+ADAMS, 1100
+JAMES, 950
+SMITH, 800
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+TOP 4 SALARY ARE
+KING, 5000
+SCOTT, 3000
+FORD, 3000
+JONES, 2975
+BLAKE, 2850
+CLARK, 2450
+ALLEN, 1600
+TURNER, 1500
+MILLER, 1300
+MARTIN, 1250
+WARD, 1250
+ADAMS, 1100
+JAMES, 950
+SMITH, 800
+
+
+Procedimento PL/SQL concluído com sucesso.
+

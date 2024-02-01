@@ -1,0 +1,64 @@
+
+TO_CHAR(SYSDATE,'DAYDDMONTHYEARHH:MI:SSAM')                                                                                                            
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Segunda-Feira 24 Abril     Twenty Twenty-Three 06:23:16 Tarde
+
+
+View INV_VIEW criado.
+
+
+ITEM_DESC                         ITEM_ID  INV_PRICE COLOR                    INV_ID INV_SIZE  
+------------------------------ ---------- ---------- -------------------- ---------- ----------
+Men's Expedition Parka                  1      461,9 Spruce                       25 L         
+Men's Expedition Parka                  1      439,9 Spruce                       24 M         
+Men's Expedition Parka                  1      439,9 Spruce                       23 S         
+Men's Expedition Parka                  1      461,9 Spruce                       26 XL        
+3-Season Tent                           2     571,98 Light Grey                    2           
+3-Season Tent                           2      692,1 Sky Blue                      1           
+Women's Hiking Shorts                   3       65,9 Khaki                         5 L         
+Women's Hiking Shorts                   3       65,9 Navy                          7 M         
+Women's Hiking Shorts                   3       65,9 Khaki                         3 S         
+Women's Hiking Shorts                   3       65,9 Khaki                         4 M         
+Women's Hiking Shorts                   3       65,9 Navy                          8 L         
+
+ITEM_DESC                         ITEM_ID  INV_PRICE COLOR                    INV_ID INV_SIZE  
+------------------------------ ---------- ---------- -------------------- ---------- ----------
+Women's Hiking Shorts                   3       65,9 Navy                          6 S         
+Women's Fleece Pullover                 4      131,9 Royal                        14 L         
+Women's Fleece Pullover                 4      131,9 Royal                        13 M         
+Women's Fleece Pullover                 4      131,9 Eggplant                     11 L         
+Women's Fleece Pullover                 4      131,9 Eggplant                     10 M         
+Women's Fleece Pullover                 4      131,9 Eggplant                      9 S         
+Women's Fleece Pullover                 4      131,9 Royal                        12 S         
+Children's Beachcomber Sandals          5      35,18 Bright Pink                  22 1         
+Children's Beachcomber Sandals          5      35,18 Bright Pink                  21 12        
+Children's Beachcomber Sandals          5      35,18 Bright Pink                  20 11        
+Children's Beachcomber Sandals          5      35,18 Bright Pink                  19 10        
+
+ITEM_DESC                         ITEM_ID  INV_PRICE COLOR                    INV_ID INV_SIZE  
+------------------------------ ---------- ---------- -------------------- ---------- ----------
+Children's Beachcomber Sandals          5      35,18 Turquoise                    18 1         
+Children's Beachcomber Sandals          5      35,18 Turquoise                    17 12        
+Children's Beachcomber Sandals          5      35,18 Turquoise                    15 10        
+Children's Beachcomber Sandals          5      35,18 Turquoise                    16 11        
+Boy's Surf Shorts                       6      38,62 Blue                         27 S         
+Boy's Surf Shorts                       6       35,1 Blue                         28 M         
+Boy's Surf Shorts                       6       35,1 Blue                         29 L         
+Girl's Soccer Tee                       7      43,98 White                        30 S         
+Girl's Soccer Tee                       7      43,98 White                        31 M         
+Girl's Soccer Tee                       7     193,52 White                        32 L         
+
+32 linhas selecionadas. 
+
+
+1 linha atualizado.
+
+
+1 linha atualizado.
+
+
+Trigger INV_VIEW_TRIGGER compilado
+
+
+1 linha inserido.
+

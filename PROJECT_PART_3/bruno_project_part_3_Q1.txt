@@ -1,0 +1,30 @@
+
+TO_CHAR(SYSDATE,'DDMONTHYEARDAYHH:MI:SSAM')                                                                                                            
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+29 Janeiro   Twenty Twenty-Three Domingo       08:31:57 Tarde
+
+
+Procedure P3Q1 compilado
+
+Department's name: RESEARCH
+Work location: DALLAS
+Employee's name: FORD
+Annual salary: 36000
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+Department's name: SALES
+Work location: CHICAGO
+Employee's name: ALLEN
+Annual salary: 19500
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+Employee number 99 does not exist!
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+SQL> SPOOL OF

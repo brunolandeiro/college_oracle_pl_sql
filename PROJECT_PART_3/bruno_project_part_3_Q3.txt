@@ -1,0 +1,62 @@
+
+TO_CHAR(SYSDATE,'DDMONTHYEARDAYHH:MI:SSAM')                                                                                                            
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+29 Janeiro   Twenty Twenty-Three Domingo       09:11:38 Tarde
+
+
+Function FIND_AGE compilado
+
+
+FIND_AGE(TO_DATE('18/02/1993','DD/MM/YYYY'))
+--------------------------------------------
+                                          29
+
+
+S_LAST                         S_DOB   
+------------------------------ --------
+Miller                         14/07/85
+Umato                          19/08/85
+Black                          10/10/82
+Mobley                         24/09/86
+Sanchez                        20/11/86
+Connoly                        04/12/86
+
+6 linhas selecionadas. 
+
+
+Procedure P3Q3 compilado
+
+Name: Miller
+Birth Date: 14/07/85
+Age: 37
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+The STUDENT id 1111111111111111 does not exist!
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+Name: Umato
+Birth Date: 19/08/85
+Age: 37
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+Name: Black
+Birth Date: 10/10/82
+Age: 40
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+Name: Mobley
+Birth Date: 24/09/86
+Age: 36
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+SQL> SPOOL OF

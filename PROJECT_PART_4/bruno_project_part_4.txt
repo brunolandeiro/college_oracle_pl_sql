@@ -1,0 +1,51 @@
+
+TO_CHAR(SYSDATE,'DDMONTHYEARDAYHH:MI:SSAM')                                                                                                            
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+04 Fevereiro Twenty Twenty-Three Sábado        05:08:07 Tarde
+
+
+Procedure COMPARE compilado
+
+
+Procedure L4Q1 compilado
+
+The area of a square size 2 by 2 is 4. It`s perimeter is 8
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+The area of a rectangle size 2 by 3 is 6. It`s perimeter is 10
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+
+Procedure CALCULATE compilado
+
+
+Procedure L4Q2 compilado
+
+The area of a square size 2 by 2 is 4. It`s perimeter is 8
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+The area of a rectangle size 2 by 3 is 6. It`s perimeter is 10
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+
+Procedure L4Q3_AUX compilado
+
+
+Procedure L4Q3 compilado
+
+The the inventory 32, was updated.
+Quantity: 100
+New price: 87,96
+New value: 8796
+
+
+Procedimento PL/SQL concluído com sucesso.
+

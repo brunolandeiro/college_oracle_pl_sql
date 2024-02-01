@@ -1,0 +1,72 @@
+
+TO_CHAR(SYSDATE,'DAYDDMONTHYEARHH:MI:SSAM')                                                                                                            
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Segunda-Feira 27 Março     Twenty Twenty-Three 11:24:15 Manhã
+
+
+Package CS_PACKAGE compilado
+
+
+Package Body CS_PACKAGE compilado
+
+Y or N.
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+Consultant number 999 dont exist.
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+Skill number 88 dont exist.
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+Consultant number:100. Name: Mark Myers. Skill is VB .NET Programming. Certification: Y. No need of update.
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+Consultant number:100. Name: Mark Myers. Skill is Java Programming. Certification: Y. No need of update.
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+Consultant number: 100. Name: Mark Myers. Skill: Web Application Programming. Status changed from Y to N.
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+Consultant number: 100. Name: Mark Myers. Skill: Web Application Programming. Status changed from N to Y.
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+
+      C_ID   SKILL_ID CERTIFIC
+---------- ---------- --------
+       100          1 Y       
+       100          3 Y       
+       100          6 N       
+       101          4 N       
+       101          5 N       
+       102          7 Y       
+       103          1 Y       
+       103          6 Y       
+       103          8 Y       
+       103          9 Y       
+       104          8 N       
+
+      C_ID   SKILL_ID CERTIFIC
+---------- ---------- --------
+       104          9 Y       
+       105          2 N       
+       105          3 N       
+       105          4 Y       
+       100          2 Y       
+       100          5 Y       
+
+17 linhas selecionadas. 
+

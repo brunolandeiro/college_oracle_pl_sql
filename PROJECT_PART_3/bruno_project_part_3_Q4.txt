@@ -1,0 +1,101 @@
+
+TO_CHAR(SYSDATE,'DDMONTHYEARDAYHH:MI:SSAM')                                                                                                            
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+29 Janeiro   Twenty Twenty-Three Domingo       11:27:00 Tarde
+
+
+      C_ID C_LAST               C_FIRST              C C_ADD                          C_CITY               C_ C_ZIP      C_PHONE         C_EMAIL                       
+---------- -------------------- -------------------- - ------------------------------ -------------------- -- ---------- --------------- ------------------------------
+       100 Myers                Mark                 F 1383 Alexander Ave.            Eau Claire           WI 54703      7155559652      mmyers@swexpert.com           
+       101 Hernandez            Sheila               R 3227 Brian Street              Eau Claire           WI 54702      7155550282      shernandez@earthware.com      
+       102 Zhang                Brian                  2227 Calumet Place             Altoona              WI 54720      7155558383      zhang@swexpert.com            
+       103 Carlson              Sarah                J 1334 Water Street              Eau Claire           WI 54703      7155558008      carlsons@swexpert.com         
+       104 Courtlandt           Paul                 R 1911 Pine Drive                Eau Claire           WI 54701      7155555225      courtlpr@yamail.com           
+       105 Park                 Janet                S 2333 157th Street              Chippewa Falls       WI 54712      7155554944      jpark@swexpert.com            
+
+6 linhas selecionadas. 
+
+
+  SKILL_ID SKILL_DESCRIPTION                                 
+---------- --------------------------------------------------
+         1 VB .NET Programming                               
+         2 COBOL Programming                                 
+         3 Java Programming                                  
+         4 Project Management                                
+         5 Web Application Programming                       
+         6 Oracle Developer Programming                      
+         7 Oracle Database Administration                    
+         8 Windows NT/2000 Network Administration            
+         9 Windows XP Network Administration                 
+
+9 linhas selecionadas. 
+
+
+      C_ID   SKILL_ID CERTIFIC
+---------- ---------- --------
+       100          1 Y       
+       100          3 N       
+       100          6 Y       
+       101          4 N       
+       101          5 N       
+       102          7 Y       
+       103          1 Y       
+       103          6 Y       
+       103          8 Y       
+       103          9 Y       
+       104          8 N       
+
+      C_ID   SKILL_ID CERTIFIC
+---------- ---------- --------
+       104          9 Y       
+       105          2 N       
+       105          3 N       
+       105          4 Y       
+       100          2 Y       
+
+16 linhas selecionadas. 
+
+
+Function CONSULTANT_EXIST compilado
+
+
+Function SKILL_EXIST compilado
+
+
+Function STATUS_IS_VALID compilado
+
+
+Function CERTIFICATION_IS_REGISTRED compilado
+
+
+Procedure P3Q4 compilado
+
+SKILL CERTIFICATION UPDATED
+Myers, Mark - VB .NET Programming
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+SKILL CERTIFICATION UPDATED
+Myers, Mark - COBOL Programming
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+SKILL CERTIFICATION UPDATED
+Park, Janet - COBOL Programming
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+Consultant id do not exist
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+Skill id do not exist
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+SQL> SPOOL OF

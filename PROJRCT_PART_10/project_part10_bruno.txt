@@ -1,0 +1,119 @@
+
+TO_CHAR(SYSDATE,'DAYDDMONTHYEARHH:MI:SSAM')                                                                                                            
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Quinta-Feira  13 Abril     Twenty Twenty-Three 09:16:26 Tarde
+
+
+Table CUSTOMER_AUDIT eliminado.
+
+
+Table CUSTOMER_AUDIT criado.
+
+
+Sequence CUSTOMER_AUDIT_SEQUENCE eliminado.
+
+
+Sequence CUSTOMER_AUDIT_SEQUENCE criado.
+
+
+Trigger CUSTOMER_AUDIT_TRIGGER compilado
+
+nenhuma linha selecionada
+
+1 linha inserido.
+
+
+1 linha atualizado.
+
+
+1 linha excluído.
+
+Commit concluído.
+
+    ROW_ID UPDATING_USER                  TO_CHAR(UPDATING_TIME,'DDMONTHYEARHH:MI:SS')                                               
+---------- ------------------------------ -------------------------------------------------------------------------------------------
+         1 C##DES02                       13 Abril     Twenty Twenty-Three 09:16:26                                                  
+         2 C##DES02                       13 Abril     Twenty Twenty-Three 09:16:26                                                  
+         3 C##DES02                       13 Abril     Twenty Twenty-Three 09:16:26                                                  
+
+
+Table ORDER_LINE_AUDIT eliminado.
+
+
+Table ORDER_LINE_AUDIT criado.
+
+
+Sequence ORDER_LINE_AUDIT_SEQUENCE eliminado.
+
+
+Sequence ORDER_LINE_AUDIT_SEQUENCE criado.
+
+
+Trigger ORDER_LINE_AUDIT_TRIGGER compilado
+
+
+      O_ID     INV_ID OL_QUANTITY
+---------- ---------- -----------
+         1          1           1
+         1         14           2
+         2         19           1
+         3         24           1
+         3         26           1
+         4         12           2
+         5          8           1
+         5         13           1
+         6          7           3
+         7         25         999
+         8         25         999
+
+      O_ID     INV_ID OL_QUANTITY
+---------- ---------- -----------
+        36          2          10
+        32          2          20
+        35          2          10
+
+14 linhas selecionadas. 
+
+nenhuma linha selecionada
+
+1 linha inserido.
+
+
+1 linha atualizado.
+
+
+1 linha excluído.
+
+Commit concluído.
+
+    ROW_ID UPDATING_USER                  UPDATING ACTION_PERFORMED         
+---------- ------------------------------ -------- -------------------------
+         1 C##DES02                       13/04/23 INSERT                   
+         2 C##DES02                       13/04/23 UPDATE                   
+         3 C##DES02                       13/04/23 DELETE                   
+
+
+Table ORDER_LINE_ROW_AUDIT eliminado.
+
+
+Table ORDER_LINE_ROW_AUDIT criado.
+
+
+Sequence ORDER_LINE_ROW_AUDIT_SEQUENCE eliminado.
+
+
+Sequence ORDER_LINE_ROW_AUDIT_SEQUENCE criado.
+
+
+Trigger ORDER_LINE_ROW_AUDIT_TRIGGER compilado
+
+nenhuma linha selecionada
+
+1 linha atualizado.
+
+Commit concluído.
+
+    ROW_ID UPDATING_USER                  UPDATING OLD_OL_QUANTITY
+---------- ------------------------------ -------- ---------------
+         1 C##DES02                       13/04/23              20
+

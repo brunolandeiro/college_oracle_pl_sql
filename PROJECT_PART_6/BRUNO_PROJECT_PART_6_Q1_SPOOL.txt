@@ -1,0 +1,38 @@
+
+TO_CHAR(SYSDATE,'DDMONTHYEARDAYHH:MI:SSAM')                                                                                                            
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+27 Fevereiro Twenty Twenty-Three Segunda-Feira 02:51:48 Tarde
+
+
+Procedure P6Q1 compilado
+
+
+--------------FACULTY--------------
+1, Cox, Kim, ASSO.
+-------------STUDENTS-------------
+1, Miller, Sarah, 14/07/85, SR.
+2, Umato, Brian, 19/08/85, SR.
+3, Black, Daniel, 10/10/82, JR.
+
+--------------FACULTY--------------
+2, Blanchard, John, FULL.
+-------------STUDENTS-------------
+4, Mobley, Amanda, 24/09/86, SO.
+
+--------------FACULTY--------------
+3, Williams, Jerry, ASST.
+-------------STUDENTS-------------
+6, Connoly, Michael, 04/12/86, FR.
+
+--------------FACULTY--------------
+4, Sheng, Laura, INST.
+-------------STUDENTS-------------
+5, Sanchez, Ruben, 20/11/86, SO.
+
+--------------FACULTY--------------
+5, Brown, Philip, ASSO.
+-------------STUDENTS-------------
+
+
+Procedimento PL/SQL concluído com sucesso.
+

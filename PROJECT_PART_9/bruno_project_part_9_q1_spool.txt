@@ -1,0 +1,32 @@
+
+TO_CHAR(SYSDATE,'DAYDDMONTHYEARHH:MI:SSAM')                                                                                                            
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Quinta-Feira  30 Março     Twenty Twenty-Three 12:27:08 Tarde
+
+
+Package CUSTOMER_PACKAGE compilado
+
+
+Sequence CUSTOMER_SEQUENCE eliminado.
+
+
+Sequence CUSTOMER_SEQUENCE criado.
+
+
+Package Body CUSTOMER_PACKAGE compilado
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+
+4 linhas excluído.
+

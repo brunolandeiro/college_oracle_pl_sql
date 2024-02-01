@@ -1,0 +1,25 @@
+
+TO_CHAR(SYSDATE,'DDMONTHYEARDAYHH:MI:SSAM')                                                                                                            
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+17 Fevereiro Twenty Twenty-Three Sexta-Feira   01:10:01 Tarde
+
+
+Procedure P5Q1 compilado
+
+LINE/COL  ERROR
+--------- -------------------------------------------------------------
+0/0       PL/SQL: Compilation unit analysis terminated
+4/3       PL/SQL: SQL Statement ignored
+5/9       PL/SQL: ORA-00942: a tabela ou view não existe
+6/12      PLS-00201: o identificador 'TERM.TERM_ID' deve ser declarado
+Erros: verifique o log do compilador
+Erro a partir da linha : 32 no comando -
+BEGIN P5Q1; END;
+Relatório de erros -
+ORA-06550: linha 1, coluna 7:
+PLS-00905: o objeto C##SCOTT.P5Q1 é inválido
+ORA-06550: linha 1, coluna 7:
+PL/SQL: Statement ignored
+06550. 00000 -  "line %s, column %s:\n%s"
+*Cause:    Usually a PL/SQL compilation error.
+*Action:

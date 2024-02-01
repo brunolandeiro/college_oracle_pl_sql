@@ -1,0 +1,65 @@
+SPOOL bruno_project_part_5_q2_q3.txt
+SELECT TO_CHAR(SYSDATE, 'DD Month Year Day HH:MI:SS Am') from dual;
+SET SERVEROUTPUT ON;
+
+-- Question 2 :
+-- Run script 7clearwater.
+-- Using cursor to display many rows of data, 
+-- create a procedure to display the following data from the database: 
+--		Item description, price, color, and quantity on hand.
+CREATE OR REPLACE PROCEDURE P5Q2 AS
+-- STEP 1
+CURSOR Q2CURR IS SELECT 
+  ITEM_DESC, INV_PRICE, COLOR, INV_QOH 
+  FROM INVENTORY JOIN ITEM ON ITEM.ITEM_ID = INVENTORY.ITEM_ID;
+V_ITEM_DESC ITEM.ITEM_DESC%TYPE;
+V_INV_PRICE INVENTORY.INV_PRICE%TYPE;
+V_COLOR INVENTORY.COLOR%TYPE;
+V_INV_QOH INVENTORY.INV_QOH%TYPE;
+BEGIN
+  -- STEP 2
+  OPEN Q2CURR;
+  -- STEP 3
+  FETCH Q2CURR INTO V_ITEM_DESC, V_INV_PRICE, V_COLOR, V_INV_QOH;
+  WHILE Q2CURR%FOUND LOOP
+    DBMS_OUTPUT.PUT_LINE('ITEM DESCRIPTION: ' || V_ITEM_DESC 
+      || ', PRICE: '|| V_INV_PRICE 
+      || ', COLOR: '|| V_COLOR 
+      ||', AND QUANTITY ON HAND: ' || V_INV_QOH);
+    FETCH Q2CURR INTO V_ITEM_DESC, V_INV_PRICE, V_COLOR, V_INV_QOH;
+  END LOOP;
+  -- STEP 4: CLOSE
+  CLOSE Q2CURR;
+END;
+/
+EXEC P5Q2
+-- Question 3 :
+-- Run script 7clearwater.
+-- Using cursor to update many rows of data, 
+-- create a procedure that accepts a number represent the percentage increase in price. 
+-- The procedure will display the old price, new price and update the database with the new price.
+CREATE OR REPLACE PROCEDURE P5Q3(P_PERCENT_INCREASE NUMBER) AS
+-- STEP 1
+CURSOR Q3CURR IS SELECT INV_ID, INV_PRICE FROM INVENTORY;
+V_INV_PRICE INVENTORY.INV_PRICE%TYPE;
+V_INV_ID INVENTORY.INV_ID%TYPE;
+V_NEW_INV_PRICE INVENTORY.INV_PRICE%TYPE;
+BEGIN
+  -- STEP 2
+  OPEN Q3CURR;
+  -- STEP 3
+  FETCH Q3CURR INTO V_INV_ID, V_INV_PRICE;
+  WHILE Q3CURR%FOUND LOOP
+    V_NEW_INV_PRICE := ROUND(V_INV_PRICE + ((V_INV_PRICE *  P_PERCENT_INCREASE) / 100), 2);
+    DBMS_OUTPUT.PUT_LINE('PRICE: ' || V_INV_PRICE || ', NEW PRICE: '|| V_NEW_INV_PRICE);
+    UPDATE INVENTORY SET INV_PRICE = V_NEW_INV_PRICE WHERE INV_ID = V_INV_ID;
+    FETCH Q3CURR INTO V_INV_ID, V_INV_PRICE;
+  END LOOP;
+  COMMIT;
+  -- STEP 4: CLOSE
+  CLOSE Q3CURR;
+END;
+/
+EXEC P5Q3(100);
+
+spool off

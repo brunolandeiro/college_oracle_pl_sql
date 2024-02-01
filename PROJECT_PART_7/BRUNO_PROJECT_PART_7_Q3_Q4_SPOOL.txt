@@ -1,0 +1,139 @@
+
+TO_CHAR(SYSDATE,'DDMONTHYEARDAYHH:MI:SSAM')                                                                                                            
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+13 Março     Twenty Twenty-Three Segunda-Feira 04:18:24 Tarde
+
+
+Procedure P7_Q3 compilado
+
+
+---ITEM---
+1, Men's Expedition Parka, CAT_ID: 3
+---INVENTORY---
+23, COLOR: Spruce, SIZE: S, PRICE $: 439,9, QUANTITY: 114
+24, COLOR: Spruce, SIZE: M, PRICE $: 439,9, QUANTITY: 17
+25, COLOR: Spruce, SIZE: L, PRICE $: 461,9, QUANTITY: 0
+26, COLOR: Spruce, SIZE: XL, PRICE $: 461,9, QUANTITY: 12
+
+---ITEM---
+2, 3-Season Tent, CAT_ID: 4
+---INVENTORY---
+1, COLOR: Sky Blue, SIZE: , PRICE $: 692,1, QUANTITY: 16
+2, COLOR: Light Grey, SIZE: , PRICE $: 571,98, QUANTITY: 12
+
+---ITEM---
+3, Women's Hiking Shorts, CAT_ID: 1
+---INVENTORY---
+3, COLOR: Khaki, SIZE: S, PRICE $: 65,9, QUANTITY: 150
+4, COLOR: Khaki, SIZE: M, PRICE $: 65,9, QUANTITY: 147
+5, COLOR: Khaki, SIZE: L, PRICE $: 65,9, QUANTITY: 0
+6, COLOR: Navy, SIZE: S, PRICE $: 65,9, QUANTITY: 139
+7, COLOR: Navy, SIZE: M, PRICE $: 65,9, QUANTITY: 137
+8, COLOR: Navy, SIZE: L, PRICE $: 65,9, QUANTITY: 115
+
+---ITEM---
+4, Women's Fleece Pullover, CAT_ID: 1
+---INVENTORY---
+9, COLOR: Eggplant, SIZE: S, PRICE $: 131,9, QUANTITY: 135
+10, COLOR: Eggplant, SIZE: M, PRICE $: 131,9, QUANTITY: 168
+11, COLOR: Eggplant, SIZE: L, PRICE $: 131,9, QUANTITY: 187
+12, COLOR: Royal, SIZE: S, PRICE $: 131,9, QUANTITY: 0
+13, COLOR: Royal, SIZE: M, PRICE $: 131,9, QUANTITY: 124
+14, COLOR: Royal, SIZE: L, PRICE $: 131,9, QUANTITY: 112
+
+---ITEM---
+5, Children's Beachcomber Sandals, CAT_ID: 2
+---INVENTORY---
+15, COLOR: Turquoise, SIZE: 10, PRICE $: 35,18, QUANTITY: 121
+16, COLOR: Turquoise, SIZE: 11, PRICE $: 35,18, QUANTITY: 111
+17, COLOR: Turquoise, SIZE: 12, PRICE $: 35,18, QUANTITY: 113
+18, COLOR: Turquoise, SIZE: 1, PRICE $: 35,18, QUANTITY: 121
+19, COLOR: Bright Pink, SIZE: 10, PRICE $: 35,18, QUANTITY: 148
+20, COLOR: Bright Pink, SIZE: 11, PRICE $: 35,18, QUANTITY: 137
+21, COLOR: Bright Pink, SIZE: 12, PRICE $: 35,18, QUANTITY: 134
+22, COLOR: Bright Pink, SIZE: 1, PRICE $: 35,18, QUANTITY: 123
+
+---ITEM---
+6, Boy's Surf Shorts, CAT_ID: 2
+---INVENTORY---
+27, COLOR: Blue, SIZE: S, PRICE $: 38,62, QUANTITY: 50
+28, COLOR: Blue, SIZE: M, PRICE $: 35,1, QUANTITY: 100
+29, COLOR: Blue, SIZE: L, PRICE $: 35,1, QUANTITY: 100
+
+---ITEM---
+7, Girl's Soccer Tee, CAT_ID: 2
+---INVENTORY---
+30, COLOR: White, SIZE: S, PRICE $: 43,98, QUANTITY: 100
+31, COLOR: White, SIZE: M, PRICE $: 43,98, QUANTITY: 100
+32, COLOR: White, SIZE: L, PRICE $: 193,52, QUANTITY: 100
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+
+Procedure P7_Q4 compilado
+
+
+---ITEM---
+1, Men's Expedition Parka, VALUE: $ 63169,7 , CAT_ID: 3
+---INVENTORY---
+23, COLOR: Spruce, SIZE: S, PRICE $: 439,9, QUANTITY: 114
+24, COLOR: Spruce, SIZE: M, PRICE $: 439,9, QUANTITY: 17
+25, COLOR: Spruce, SIZE: L, PRICE $: 461,9, QUANTITY: 0
+26, COLOR: Spruce, SIZE: XL, PRICE $: 461,9, QUANTITY: 12
+
+---ITEM---
+2, 3-Season Tent, VALUE: $ 17937,36 , CAT_ID: 4
+---INVENTORY---
+1, COLOR: Sky Blue, SIZE: , PRICE $: 692,1, QUANTITY: 16
+2, COLOR: Light Grey, SIZE: , PRICE $: 571,98, QUANTITY: 12
+
+---ITEM---
+3, Women's Hiking Shorts, VALUE: $ 45339,2 , CAT_ID: 1
+---INVENTORY---
+3, COLOR: Khaki, SIZE: S, PRICE $: 65,9, QUANTITY: 150
+4, COLOR: Khaki, SIZE: M, PRICE $: 65,9, QUANTITY: 147
+5, COLOR: Khaki, SIZE: L, PRICE $: 65,9, QUANTITY: 0
+6, COLOR: Navy, SIZE: S, PRICE $: 65,9, QUANTITY: 139
+7, COLOR: Navy, SIZE: M, PRICE $: 65,9, QUANTITY: 137
+8, COLOR: Navy, SIZE: L, PRICE $: 65,9, QUANTITY: 115
+
+---ITEM---
+4, Women's Fleece Pullover, VALUE: $ 95759,4 , CAT_ID: 1
+---INVENTORY---
+9, COLOR: Eggplant, SIZE: S, PRICE $: 131,9, QUANTITY: 135
+10, COLOR: Eggplant, SIZE: M, PRICE $: 131,9, QUANTITY: 168
+11, COLOR: Eggplant, SIZE: L, PRICE $: 131,9, QUANTITY: 187
+12, COLOR: Royal, SIZE: S, PRICE $: 131,9, QUANTITY: 0
+13, COLOR: Royal, SIZE: M, PRICE $: 131,9, QUANTITY: 124
+14, COLOR: Royal, SIZE: L, PRICE $: 131,9, QUANTITY: 112
+
+---ITEM---
+5, Children's Beachcomber Sandals, VALUE: $ 35461,44 , CAT_ID: 2
+---INVENTORY---
+15, COLOR: Turquoise, SIZE: 10, PRICE $: 35,18, QUANTITY: 121
+16, COLOR: Turquoise, SIZE: 11, PRICE $: 35,18, QUANTITY: 111
+17, COLOR: Turquoise, SIZE: 12, PRICE $: 35,18, QUANTITY: 113
+18, COLOR: Turquoise, SIZE: 1, PRICE $: 35,18, QUANTITY: 121
+19, COLOR: Bright Pink, SIZE: 10, PRICE $: 35,18, QUANTITY: 148
+20, COLOR: Bright Pink, SIZE: 11, PRICE $: 35,18, QUANTITY: 137
+21, COLOR: Bright Pink, SIZE: 12, PRICE $: 35,18, QUANTITY: 134
+22, COLOR: Bright Pink, SIZE: 1, PRICE $: 35,18, QUANTITY: 123
+
+---ITEM---
+6, Boy's Surf Shorts, VALUE: $ 8951 , CAT_ID: 2
+---INVENTORY---
+27, COLOR: Blue, SIZE: S, PRICE $: 38,62, QUANTITY: 50
+28, COLOR: Blue, SIZE: M, PRICE $: 35,1, QUANTITY: 100
+29, COLOR: Blue, SIZE: L, PRICE $: 35,1, QUANTITY: 100
+
+---ITEM---
+7, Girl's Soccer Tee, VALUE: $ 28148 , CAT_ID: 2
+---INVENTORY---
+30, COLOR: White, SIZE: S, PRICE $: 43,98, QUANTITY: 100
+31, COLOR: White, SIZE: M, PRICE $: 43,98, QUANTITY: 100
+32, COLOR: White, SIZE: L, PRICE $: 193,52, QUANTITY: 100
+
+
+Procedimento PL/SQL concluído com sucesso.
+

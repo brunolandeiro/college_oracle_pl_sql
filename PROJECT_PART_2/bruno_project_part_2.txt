@@ -1,0 +1,129 @@
+
+TO_CHAR(SYSDATE,'DDMONTHYEARDAYHH:MI:SSAM')                                                                                                            
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+23 Janeiro   Twenty Twenty-Three Segunda-Feira 08:50:44 Tarde
+
+
+Function L2Q1 compilado
+
+
+ L2Q1(2,2)
+----------
+         4
+
+
+Procedure L2Q2 compilado
+
+For a rectangle of size 2 by 2 the area is 4.
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+For a rectangle of size 2 by 3 the area is 6.
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+
+Procedure L2Q3 compilado
+
+For a square of size 2 by 2 the area is 4.
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+For a rectangle of size 2 by 3 the area is 6.
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+
+Procedure Q2L4 compilado
+
+For 2 dollars Canadian, you will have 200 YEN
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+For 1 dollars Canadian, you will have 1,5 EURO
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+For 1 dollars Canadian, you will have 100 YEN
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+For 1 dollars Canadian, you will have 10000 Viet Nam DONG
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+For 1 dollars Canadian, you will have 1000000 Endora ZIP
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+
+Function YES_EVEN compilado
+
+
+Procedure L2Q6 compilado
+
+Number 6 is EVEN
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+Number 5 is ODD
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+
+Type CURRENCY compilado
+
+
+Function GET_CURRENCY compilado
+
+
+Function CONVERT_FROM_CAD compilado
+
+
+Function CONVERT_TO_CAD compilado
+
+
+Procedure L2QBONUS compilado
+
+For 2 YEN, you will have 200 Viet Nam DONG
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+For 20000 Viet Nam DONG, you will have 2 dollars Canadian
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+For 200 Viet Nam DONG, you will have 2 YEN
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+For 1 dollars Canadian, you will have 100 YEN
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+For 1 dollars Canadian, you will have 10000 Viet Nam DONG
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+For 1 YEN, you will have 100 Viet Nam DONG
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+SQL> SPOOL OF
